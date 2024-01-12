@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    margin-top: 3vh;
+    display:flex;
+    flex-direction: column;
+    gap:7vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 146, 146);
+}
+.box-container{
+    margin-top: 3vh;
+    height:50vh;
+    width:30vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.boxes{
+    border-bottom: 2px solid black;
+    height:40%;
+    width:40%;
+    background-color: red;
+    border:7px solid black;
+    border-radius: 16%;
+    text-align: center;
+    
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: black;
+}
+.gameOver{
+    background-color: red;
+}
+@media (max-width:600px){
+    .box-container{
+        width:70vw;
+        height:40vh;
+    }
+}
